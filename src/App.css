@@ -1,0 +1,40 @@
+:root {
+  --white: #fff;
+}
+
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  font-size: calc(10px + 2vmin);
+  color: var(--white);
+  text-align: center;
+}
+
+.input,
+.name {
+  width: 50vw;
+}
+
+.input {
+  margin-top: 5em;
+}
+
+input {
+  border: 1px solid var(--white);
+  padding: 1em;
+  width: 15em;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+a {
+  color: var(--white);
+}
+
+.comment {
+  margin-top: 3em;
+}
